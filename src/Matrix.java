@@ -6,10 +6,12 @@ public class Matrix {
         for (int i = 0; i < rows; i++) {
             System.out.println();
             for (int j = 0; j < columns; j++) {
-                System.out.print(i * columns + j + 1 + " ");
+                if (i == j || i == 4 - j){
+                    System.out.print("* ");
+                }else {
+                    System.out.print(i * columns + j + 1 + " ");
+                }
             }
-
         }
-
     }
 }
