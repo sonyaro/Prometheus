@@ -1,9 +1,9 @@
 public class Kvadratnoe_uravnenie {
 
     public static void main(String[] args) {
-        double a = 0;
-        double b = 0;
-        double c = 9999;
+        double a = 4;
+        double b = 3;
+        double c = 9;
 
         double diskriminant = b * b - 4 * a * c;
         double x = 0.0;
