@@ -9,7 +9,13 @@ public class URLString {
     private static void printArray(String[] printArray) {
 
         for (int i = 0; i < printArray.length; i++) {
-            System.out.println( printArray[i]);
+
+            String element = printArray[i];
+
+            element = element.substring(0,element.indexOf('='));
+
+            System.out.println( element);
+
         }
     }
 
@@ -18,5 +24,4 @@ public class URLString {
         String[] words = substring.split("&");
         return words;
     }
-
 }
