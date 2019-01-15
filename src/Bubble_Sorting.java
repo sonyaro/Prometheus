@@ -1,6 +1,6 @@
 public class Bubble_Sorting {
     public static void main(String[] args) {
-        int[] array = {25,234,567,45,68,36,86766,47};
+        int[] array = {2645,4856,345,646,222};
         int length = array.length;
         int kjkj = 0;
         for (int j = 0; j < length - 1 ; j++) {
